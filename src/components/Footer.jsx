@@ -15,27 +15,27 @@ const Footer = () => {
       <div className="footer-nav">
         <ul className="footer-links">
           <li>
-            <a href="">About</a>
+            <a href="/">About</a>
           </li>
           <li>
-            <a href="">Services</a>
+            <a href="/">Services</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="/">Projects</a>
           </li>
         </ul>
       </div>
       <div className="footer-social">
-        <a href="">
+        <a href="/">
           <FaFacebook />
         </a>
-        <a href="">
+        <a href="/">
           <FaInstagram />
         </a>
-        <a href="">
+        <a href="/">
           <FaTwitter />
         </a>
-        <a href="">
+        <a href="/">
           <FaPinterest />
         </a>
       </div>

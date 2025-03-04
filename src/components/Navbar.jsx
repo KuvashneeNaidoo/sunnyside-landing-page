@@ -23,16 +23,16 @@ const Navbar = () => {
       {/* Navbar links that toggle the 'open' class based on the state of isOpen */}
       <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="/about">About</a>
+          <a href="/">About</a>
         </li>
         <li>
-          <a href="/services">Services</a>
+          <a href="/">Services</a>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <a href="/">Projects</a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="/">Contact</a>
         </li>
       </ul>
     </nav>
