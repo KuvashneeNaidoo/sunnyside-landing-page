@@ -1,0 +1,55 @@
+.testimonials-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.testimonials-heading {
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(232, 10%, 55%);
+}
+
+.testimonials-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  justify-items: center;
+}
+
+.testimonials-grid-container p {
+  width: 375px;
+  width: 100%;
+}
+.testimonials-grid-container img {
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+.review {
+  margin-bottom: 50px;
+}
+
+.occupation {
+  color: hsl(210, 4%, 67%);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 875px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid-container {
+    grid-template-columns: 1fr;
+  }
+}

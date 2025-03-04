@@ -1,0 +1,20 @@
+.gallery-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gallery-grid-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 875px) {
+  .gallery-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid-container {
+    grid-template-columns: 1fr;
+  }
+}
