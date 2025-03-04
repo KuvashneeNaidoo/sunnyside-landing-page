@@ -38,8 +38,8 @@ Small Screen (Mobile)
 
 ### Links
 
-- [Solution URL](https://kuvashnee-sunnyside-landing-page.netlify.app/)
-- [Live Site URL](https://github.com/KuvashneeNaidoo/sunnyside-landing-page)
+- [Solution URL](https://github.com/KuvashneeNaidoo/sunnyside-landing-page)
+- [Live Site URL](https://kuvashnee-sunnyside-landing-page.netlify.app/)
 
 ## My process
 
